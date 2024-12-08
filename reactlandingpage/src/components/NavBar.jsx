@@ -1,4 +1,4 @@
-import React from "react";
+import { FaCode } from "react-icons/fa";
 
 export default function NavBar() {
   return (
@@ -8,11 +8,7 @@ export default function NavBar() {
           href="https://flowbite.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
-            alt="Flowbite Logo"
-          />
+          <FaCode className="text-4xl text-blue-600" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             SkillSync
           </span>

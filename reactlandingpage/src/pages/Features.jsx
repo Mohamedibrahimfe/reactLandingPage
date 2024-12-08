@@ -1,4 +1,3 @@
-import React from "react";
 import { RiLayout4Fill } from "react-icons/ri";
 import { GiOpenBook } from "react-icons/gi";
 import { FaPeopleGroup } from "react-icons/fa6";

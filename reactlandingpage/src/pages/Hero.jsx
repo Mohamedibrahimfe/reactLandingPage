@@ -1,4 +1,3 @@
-import React from "react";
 import { HiMiniRocketLaunch } from "react-icons/hi2";
 
 export default function Hero() {
@@ -23,7 +22,7 @@ export default function Hero() {
 
         <a
           href="#"
-          className="bg-blue-500 hover:bg-blue-600 text-white px-2 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3 rounded-lg flex items-center hover:shadow-lg transition duration-300 ease-in-out hover:scale-90"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-2 md:px-4 lg:px-6 py-2 md:py-2 lg:py-3  flex items-center hover:shadow-lg transition duration-300 ease-in-out hover:scale-90"
         >
           Explore Tools
           <HiMiniRocketLaunch
