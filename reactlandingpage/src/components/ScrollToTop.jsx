@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
@@ -23,7 +22,7 @@ export default function ScrollToTop() {
   return (
     <FaArrowUp
       onClick={() => window.scrollTo(0, 0)}
-      className={`fixed bottom-4 right-4 z-50 bg-gray-700 text-white w-12 h-12 p-2 rounded-full ${
+      className={`fixed bottom-4 right-4 z-50 bg-gray-700 text-white w-12 h-12 p-2 rounded-full cursor-pointer ${
         isInTop ? "hidden" : "block"
       }`}
     />
