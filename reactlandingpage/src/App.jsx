@@ -9,7 +9,7 @@ import Resources from "./pages/Resources";
 import Testimonials from "./pages/Testmonials";
 function App() {
   return (
-    <>
+    <div className="bg-white dark:bg-gray-900 overflow-hidden md:px-10 lg:p-0">
       <NavBar />
       <Hero />
       <Features />
@@ -19,7 +19,7 @@ function App() {
       <Contact />
       <ScrollToTop />
       <Footer />
-    </>
+    </div>
   );
 }
 
